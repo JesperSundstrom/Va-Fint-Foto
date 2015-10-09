@@ -101,18 +101,19 @@ nav a:hover{
 /*Bilder i divs*/
 
 .imgContainer{
-        border-width: 0px;
+    border-width: 0px;
     margin-top: 0px;
     margin-left: 0px;
     overflow: visible;
-    width: 33%;
-    height: 600px;
-	    display: inline-block;
+    width: 31%;
+	display: inline-block;
+	margin:1%;
 
 }
 .imgContainer img{
+	border:1% solid white;
     display:inline;
-        max-width: 100%;
+    max-width: 100%;
     max-height: 100%;
     zoom: 1;
 }

@@ -173,5 +173,11 @@ footer {
     border: 7px solid #f5f5f5;
     border-radius: 4px;
 }
+/* GALLERI */
+.border-shadow{
+	border:2px solid white;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.2);
 
-
+}
