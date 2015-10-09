@@ -1,0 +1,120 @@
+﻿/* Navigation */
+.navLogo {
+   height: 100%;
+   background-image:url(vafintfoto.jpg);
+   background-position:center center;
+   background-repeat:no-repeat;
+   width:300px;
+}
+.nav-wrapper{
+    padding:0;
+        margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 100%;
+}
+nav li {
+    list-style-type: none;
+    float: left;
+    line-height: 64px;
+}
+
+
+nav ul {
+    margin:0;
+    padding: 0;
+}
+nav a{
+    text-decoration:none;
+    color:#090909;
+    transition:0.1s;
+    border-bottom: 0.2px solid black;
+    font-size:20px;
+    display:block;
+        padding:0 10px;
+
+}
+nav a:hover{
+    color:#227acf;
+    border-bottom: 1px solid black;
+}
+#burgerMenu{
+    background-image:url(http://www.billingeracet.se/img/menuButton.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center right;
+    height:100%;
+    width:50px;
+    display:none;
+    float:right;
+}
+@media only screen and (min-device-width : 0px) and (max-device-width : 550px) {
+        nav li {
+    list-style-type: none;
+    line-height: 64px;
+    float:initial;
+    background-color:#f7f7f7;
+    text-align:center;
+}
+    #burgerMenu{
+    display:inline-block;
+}
+    nav a:hover{
+    border-bottom:0px;
+}
+    nav a{
+        display:inline-block;
+    }
+
+    .navContent{
+        display:none;
+    }
+
+
+}
+@media only screen and (max-width: 830px){
+    nav li {
+    list-style-type: none;
+    line-height: 64px;
+    float:initial;
+    background-color:#f7f7f7;
+    text-align:center;
+}
+    #burgerMenu{
+        cursor:pointer;
+    display:inline-block;
+}
+    nav a:hover{
+    border-bottom:0px;
+}
+    nav a{
+        display:inline-block;
+    }
+
+    .navContent{
+        display:none;
+    }
+
+}
+
+
+
+/*Bilder i divs*/
+
+imgContainer{
+        border-width: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow: visible;
+    width: 800px;
+    height: 600px;
+}
+imgContainer img{
+    display:inline;
+        max-width: 100%;
+    max-height: 100%;
+    zoom: 1;
+}
+
+
+
