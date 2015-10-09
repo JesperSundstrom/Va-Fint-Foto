@@ -39,39 +39,35 @@ nav {
     display: block;
 }
 
-#footerInfo
-{
+#footerInfo {
     text-align: center;
 }
 
-#footerInfoCont
-{
+#footerInfoCont {
     margin-top: -10px;
     font-size: 0.9em;
 }
 
-#footerTitle
-{
+#footerTitle {
     font-size: 1.2em;
     margin-top: -20px;
     font-weight: 500;
 }
-footer h1
-{
+
+footer h1 {
     font-family: 'Century Gothic';
     font-weight: 100;
     letter-spacing: 3px;
     font-size: 3em;
 }
-footer p
-{
+
+footer p {
     line-height: 12px;
     opacity: 0.8;
     letter-spacing: 1px;
 }
 
-#copy
-{
+#copy {
     opacity: 0.5;
 }
 
@@ -81,15 +77,13 @@ footer {
     overflow-y: hidden;
     background-image: url(bilder/Klisteretikett.jpg);
     background-size: 400px;
-<<<<<<< HEAD
-    background-position: center center;
+    <<<<<<< HEAD background-position: center center;
     background-repeat: no-repeat;
-=======
-    background-position:center center;
-    background-repeat:no-repeat;
+    ======= background-position:center center;
+    background-repeat: no-repeat;
     padding-bottom: 10px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
->>>>>>> origin/master
+    >>>>>>> origin/master;
 }
 
 /*    SLIDESHOW    */
@@ -143,10 +137,50 @@ footer {
     border: none;
 }
 
+.owl-carousel:hover .owl-nav {
+    opacity: 1;
+    transition: .5s;
+}
+
+.owl-nav {
+    opacity: 0;
+    transition: .5s;
+}
 
 .owl-prev, .owl-next {
+    text-align: center;
+    height: 70px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.61);
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+}
+
+.owl-prev {
+
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.owl-next {
+
+    right: 0;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.pilar {
+    font-family: 'Orator Std';
+    font-size: 35px;
+    color: black;
+    margin: 22px 15px;
+}
+
+
+/*.owl-prev, .owl-next {
     content: none;
-    width: 185px;
+    width: 183px;
     height: 100%;
     margin: auto 0;
     position: absolute;
@@ -162,30 +196,28 @@ footer {
 
 .owl-prev {
     float: left;
-background: -moz-linear-gradient(left, rgba(229,229,229,0.8) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(229,229,229,0.8)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left, rgba(229,229,229,0.8) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left, rgba(229,229,229,0.8) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left, rgba(229,229,229,0.8) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
-background: linear-gradient(to right, rgba(229,229,229,0.8) 0%,rgba(255,255,255,0) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cce5e5e5', endColorstr='#00ffffff',GradientType=1 );}
+    background: -moz-linear-gradient(left, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); 
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+    background: -o-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+    background: -ms-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+    background: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 );
+}
 
 .owl-next {
-background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(229,229,229,0.8) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(229,229,229,0.8))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(229,229,229,0.8) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(229,229,229,0.8) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(229,229,229,0.8) 100%); /* IE10+ */
-background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(229,229,229,0.8) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#cce5e5e5',GradientType=1 );    right: 0;
-}
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); 
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); 
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); 
+    background: -o-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); 
+    background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); 
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 );
+    right: 0;
+}*/
 
-.pilar {
-    font-family: 'Orator Std';
-    font-size: 130px;
-    color: white;
-    margin: 145px 35px;
-}
+
+
 
 
 
@@ -222,50 +254,46 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     border: 7px solid #f5f5f5;
     border-radius: 4px;
 }
-<<<<<<< HEAD
-=======
+
+<<<<<<< HEAD =======
 /* GALLERI */
-.gallery-section{
-display:inline-flex;
+.gallery-section {
+    display: inline-flex;
 }
-.border-shadow{
-	border-radius:2%;
+
+.border-shadow {
+    border-radius: 2%;
     background-color: #f7f7f7;
     box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.2);
-	width: 31.5%;
-	display: inline-block;
-	padding:1%;
-	margin:1%;
-
-
+    width: 31.5%;
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
 }
+
 <<<<<<< HEAD
-
 /* KONTAKT */
-
-#kontaktBild
-{
+#kontaktBild {
     height: 200px;
-   
 }
 
-#kontaktTextCont
-{
+#kontaktTextCont {
     margin-top: 50px;
 }
-=======
-.imgContainer{
+
+======= .imgContainer {
     border-width: 0px;
     margin-top: 0px;
     margin-left: 0px;
     overflow: visible;
 }
-.imgContainer img{
-	border:1% solid white;
-    display:inline;
+
+.imgContainer img {
+    border: 1% solid white;
+    display: inline;
     max-width: 100%;
     max-height: 100%;
     zoom: 1;
 }
 
->>>>>>> origin/master
+> > > > > > > origin/master
