@@ -174,13 +174,21 @@ footer {
     border-radius: 4px;
 }
 /* GALLERI */
+.gallery-section{
+display:inline-flex;
+}
 .border-shadow{
-	border:2px solid white;
+	border-radius:2%;
     background-color: #f7f7f7;
-    border-radius: 4px;
     box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.2);
+	width: 31.5%;
+	display: inline-block;
+	padding:1%;
+	margin:1%;
+
 
 }
+<<<<<<< HEAD
 
 /* KONTAKT */
 
@@ -194,3 +202,19 @@ footer {
 {
     margin-top: 50px;
 }
+=======
+.imgContainer{
+    border-width: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow: visible;
+}
+.imgContainer img{
+	border:1% solid white;
+    display:inline;
+    max-width: 100%;
+    max-height: 100%;
+    zoom: 1;
+}
+
+>>>>>>> origin/master
