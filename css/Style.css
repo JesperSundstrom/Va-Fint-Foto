@@ -77,13 +77,10 @@ footer {
     overflow-y: hidden;
     background-image: url(bilder/Klisteretikett.jpg);
     background-size: 400px;
-    <<<<<<< HEAD background-position: center center;
-    background-repeat: no-repeat;
-    ======= background-position:center center;
+    background-position: center center;
     background-repeat: no-repeat;
     padding-bottom: 10px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
-    >>>>>>> origin/master;
 }
 
 /*    SLIDESHOW    */
@@ -158,13 +155,11 @@ footer {
 }
 
 .owl-prev {
-
     border-bottom-right-radius: 50%;
     border-top-right-radius: 50%;
 }
 
 .owl-next {
-
     right: 0;
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%;
@@ -255,7 +250,7 @@ footer {
     border-radius: 4px;
 }
 
-<<<<<<< HEAD =======
+
 /* GALLERI */
 .gallery-section {
     display: inline-flex;
@@ -271,7 +266,7 @@ footer {
     margin: 1%;
 }
 
-<<<<<<< HEAD
+
 /* KONTAKT */
 #kontaktBild {
     height: 200px;
@@ -281,7 +276,7 @@ footer {
     margin-top: 50px;
 }
 
-======= .imgContainer {
+.imgContainer {
     border-width: 0px;
     margin-top: 0px;
     margin-left: 0px;
@@ -296,4 +291,3 @@ footer {
     zoom: 1;
 }
 
-> > > > > > > origin/master
