@@ -32,7 +32,7 @@ nav {
 #j890-c19f::before {
     content: "";
     width: 100%;
-    box-shadow: 0px 0px 9px 0.8px rgb(0, 0, 0);
+    /*box-shadow: 0px 0px 9px 0.8px rgb(0, 0, 0);*/
     position: relative;
     display: block;
 }
@@ -82,6 +82,7 @@ footer {
     background-position:center center;
     background-repeat:no-repeat;
     padding-bottom: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 /*    SLIDESHOW    */
