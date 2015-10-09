@@ -5,6 +5,8 @@ body {
     overflow-y: scroll;
 }
 
+
+
 nav {
     width: 100%;
     height: 65px;
@@ -32,20 +34,62 @@ nav {
 #j890-c19f::before {
     content: "";
     width: 100%;
-    box-shadow: 0px 0px 9px 0.8px rgb(0, 0, 0);
+    /*box-shadow: 0px 0px 9px 0.8px rgb(0, 0, 0);*/
     position: relative;
     display: block;
 }
 
+#footerInfo
+{
+    text-align: center;
+}
+
+#footerInfoCont
+{
+    margin-top: -10px;
+    font-size: 0.9em;
+}
+
+#footerTitle
+{
+    font-size: 1.2em;
+    margin-top: -20px;
+    font-weight: 500;
+}
+footer h1
+{
+    font-family: 'Century Gothic';
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 3em;
+}
+footer p
+{
+    line-height: 12px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
+
+#copy
+{
+    opacity: 0.5;
+}
+
 footer {
     width: 100%;
-    height: 270px;
     background-color: #f7f7f7;
     overflow-y: hidden;
     background-image: url(bilder/Klisteretikett.jpg);
     background-size: 400px;
+<<<<<<< HEAD
     background-position: center center;
     background-repeat: no-repeat;
+=======
+    background-position:center center;
+    background-repeat:no-repeat;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+>>>>>>> origin/master
 }
 
 /*    SLIDESHOW    */
@@ -178,3 +222,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     border: 7px solid #f5f5f5;
     border-radius: 4px;
 }
+<<<<<<< HEAD
+=======
+/* GALLERI */
+.gallery-section{
+display:inline-flex;
+}
+.border-shadow{
+	border-radius:2%;
+    background-color: #f7f7f7;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.2);
+	width: 31.5%;
+	display: inline-block;
+	padding:1%;
+	margin:1%;
+
+
+}
+.imgContainer{
+    border-width: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    overflow: visible;
+}
+.imgContainer img{
+	border:1% solid white;
+    display:inline;
+    max-width: 100%;
+    max-height: 100%;
+    zoom: 1;
+}
+
+>>>>>>> origin/master
