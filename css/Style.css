@@ -239,6 +239,21 @@ display:inline-flex;
 
 
 }
+<<<<<<< HEAD
+
+/* KONTAKT */
+
+#kontaktBild
+{
+    height: 200px;
+   
+}
+
+#kontaktTextCont
+{
+    margin-top: 50px;
+}
+=======
 .imgContainer{
     border-width: 0px;
     margin-top: 0px;
