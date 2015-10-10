@@ -34,8 +34,9 @@ nav a{
 
 }
 nav a:hover{
-    color:#227acf;
-    border-bottom: 1px solid black;
+    color: rgba(9, 9, 9, 0.25);
+    transition: .3s;
+    border-bottom: 2px solid black;
 }
 #burgerMenu{
     background-image:url(http://www.billingeracet.se/img/menuButton.png);
