@@ -148,10 +148,17 @@ footer {
     text-align: center;
     height: 70px;
     width: 50px;
-    background-color: rgba(255, 255, 255, 0.61);
+    background-color: rgba(255, 255, 255, 0.6);
     position: absolute;
     top: 50%;
     margin-top: -35px;
+    transition: .2s;
+}
+
+.owl-prev:hover, .owl-next:hover {
+    background-color: rgba(255, 255, 255, .9);
+    transition: .2s;
+
 }
 
 .owl-prev {
