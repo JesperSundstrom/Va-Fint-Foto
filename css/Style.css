@@ -266,16 +266,30 @@ footer {
     background-color: #f7f7f7;
     margin:5% 0;
 
+
 }
 .variation1 .galleryImg1_3{
     background-color:tomato;
     width: 31.999%;
     margin:1%;
-    padding-bottom:25%;
     display:inline-block;
+    padding-bottom:25%;
+    overflow:hidden;
 }
 
+img{
+    zoom: 2;
+    position:relative;
+    display: block;
+    margin: auto;
+    top:0;
+    height: auto;
+    max-height: 100%;
 
+    width: auto;
+    max-width: 100%;
+
+}
   .galleryImg2_3:first-child{
                 margin-right: 0%;
 
