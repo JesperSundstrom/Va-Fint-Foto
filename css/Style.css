@@ -267,7 +267,7 @@ footer {
     margin: 5% 0;
 }
 
-.variation1 .galleryImg1_3 {
+.galleryImg1_3 {
     background-color: tomato;
     width: 31.999%;
     margin: 1%;
@@ -276,6 +276,7 @@ footer {
     height: auto;
     position: relative;
     overflow:hidden;
+    cursor:pointer;
 }
 
 
@@ -299,15 +300,34 @@ img {
     margin-left: 0%;
 }
 
-.variation1 .galleryImg1_3:first-child {
+.galleryImg1_3:first-child {
     margin-right: 0%;
 }
 
-.variation1 .galleryImg1_3:last-child {
+.galleryImg1_3:last-child {
     margin-left: 0%;
 }
 
+@media only screen and (max-width:  1200px) {
+    .galleryImg1_3 {
+    background-color: tomato;
+    width: 98%;
+    margin: 1%;
+    padding-bottom: 80%;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    overflow:hidden;
+    cursor:pointer;
+}
+    .galleryImg1_3:first-child {
+    margin-right: 1%;
+}
 
+.galleryImg1_3:last-child {
+    margin-left: 1%;
+}
+}
 .border-shadow {
     border-radius: 2%;
     background-color: #f7f7f7;
