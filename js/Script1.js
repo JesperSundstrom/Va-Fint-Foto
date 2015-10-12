@@ -26,9 +26,20 @@ function showNav() {
 
         return false;
     }
+}
 
 
 
+function bigPicture(imageURL) {
+    Picture = document.createElement('div');
+    Picture.id = "bigPicture";
+    document.body.appendChild(Picture);
+    document.getElementById("bigPicture").setAttribute('onclick', 'bigPictureX();');
+    document.getElementById("bigPicture").setAttribute('style', 'background-image:url(' + imageURL + ')');
 
 
+}
+
+function bigPictureX() {
+    document.getElementById("bigPicture").remove();
 }
