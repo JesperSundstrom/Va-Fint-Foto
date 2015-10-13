@@ -38,17 +38,14 @@ nav a:hover{
     transition: .3s;
 }
 #burgerMenu{
-    background-image:url(http://www.billingeracet.se/img/menuButton.png);
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-position:center right;
     height:100%;
     width:50px;
     display:none;
-    float:right;
 }
 @media only screen and (min-device-width : 0px) and (max-device-width : 550px) {
-        nav li {
+    
+    
+     nav li {
     list-style-type: none;
     line-height: 64px;
     float:initial;
@@ -57,6 +54,9 @@ nav a:hover{
 }
     #burgerMenu{
     display:inline-block;
+    position:absolute;
+    top:0;
+    right:0;
 }
     nav a:hover{
     border-bottom:0px;
@@ -72,22 +72,23 @@ nav a:hover{
 
 }
 @media only screen and (max-width: 830px){
-    nav li {
+        nav li {
     list-style-type: none;
     line-height: 64px;
     float:initial;
-    background-color:#f7f7f7;
     text-align:center;
+                background-color:#f7f7f7;
+
 }
     #burgerMenu{
-        cursor:pointer;
     display:inline-block;
 }
     nav a:hover{
     border-bottom:0px;
 }
     nav a{
-        display:none;
+        display:inline-block;
+
     }
 
     .navContent{

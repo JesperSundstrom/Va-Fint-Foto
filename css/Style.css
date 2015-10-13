@@ -75,10 +75,6 @@ footer {
     width: 100%;
     background-color: #f7f7f7;
     overflow-y: hidden;
-    background-image: url(bilder/Klisteretikett.jpg);
-    background-size: 400px;
-    background-position: center center;
-    background-repeat: no-repeat;
     padding-bottom: 10px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -280,7 +276,7 @@ footer {
 }
 
 
-img {
+.galleryImg1_3 img {
     max-width: none;
     width: 100%;
     position: absolute;
@@ -307,18 +303,46 @@ img {
 .galleryImg1_3:last-child {
     margin-left: 0%;
 }
-
-@media only screen and (max-width:  1200px) {
-    .galleryImg1_3 {
+@media only screen and (min-device-width : 0px) and (max-device-width : 550px) {
+        .galleryImg1_3 {
     background-color: tomato;
     width: 98%;
     margin: 1%;
-    padding-bottom: 80%;
+    padding-bottom: 0%;
     display: inline-block;
     height: auto;
     position: relative;
     overflow:hidden;
     cursor:pointer;
+}
+  .galleryImg1_3 img {
+    width: 100%;
+    position: relative;
+}
+    .galleryImg1_3:first-child {
+    margin-right: 1%;
+}
+
+.galleryImg1_3:last-child {
+    margin-left: 1%;
+}
+
+}
+@media only screen and (max-width:  500px) {
+    .galleryImg1_3 {
+    background-color: tomato;
+    width: 98%;
+    margin: 1%;
+    padding-bottom: 0%;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    overflow:hidden;
+    cursor:pointer;
+}
+  .galleryImg1_3 img {
+    width: 100%;
+    position: relative;
 }
     .galleryImg1_3:first-child {
     margin-right: 1%;
@@ -374,6 +398,7 @@ img {
     .border-shadow {
         width: 98%;
     }
+
 }
 /* KONTAKT */
 #kontaktBild {

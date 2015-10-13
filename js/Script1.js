@@ -1,22 +1,23 @@
-window.onresize = footerToBottom;
-window.onload = footerToBottom;
-function footerToBottom() {
-    windosSize = (window.innerHeight);
-    navheight = (document.getElementById("8hd1-2sd1").clientHeight);
-    footersie = (document.getElementById("j890-c19f").clientHeight);
-    var height = (windosSize - navheight - footersie);
-    document.getElementById("af20-v431").style.minHeight = height;
+//window.onresize = footerToBottom;
+//window.onload = footerToBottom;
+//function footerToBottom() {
+//    windosSize = (window.innerHeight);
+//    navheight = (document.getElementById("8hd1-2sd1").clientHeight);
+//    footersie = (document.getElementById("j890-c19f").clientHeight);
+//    var height = (windosSize - navheight - footersie);
+//    document.getElementById("af20-v431").style.minHeight = height;
 
-}
+//}
+var c = true
+
 function showNav() {
-    var c = document.getElementById('burgerMenu');
-
-    if (c.checked) {
+    console.log(c);
+    if (c == false) {
         var elements = document.querySelectorAll('.navContent');
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.display = "none";
         }
-        return true;
+        c = true;
     } else {
 
         var elements = document.querySelectorAll('.navContent');
@@ -24,7 +25,7 @@ function showNav() {
             elements[i].style.display = "block";
         }
 
-        return false;
+        c = false;
     }
 }
 
