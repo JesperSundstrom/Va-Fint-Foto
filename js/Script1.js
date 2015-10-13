@@ -44,3 +44,5 @@ function bigPicture(imageURL) {
 function bigPictureX() {
     document.getElementById("bigPicture").remove();
 }
+
+//window.onresize = function () { location.reload(); }
