@@ -202,7 +202,8 @@ footer {
     }
 
 .card-small {
-    max-width: 300px;
+    max-width: 50%;
+  
 }
 
 .photoCards p {
