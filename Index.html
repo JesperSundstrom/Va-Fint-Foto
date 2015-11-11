@@ -14,7 +14,7 @@
     <script type="text/javascript" src="js/Script1.js"></script>
 
 </head>
-<body>
+<body onload="popup()">
     <nav id="8hd1-2sd1">
         <div class="nav-wrapper">
             <ul>
@@ -32,6 +32,24 @@
 
         </div>
     </nav>
+    <div id="popup">
+        <div>
+            <a class="close" onclick="popup()">X</a>
+            <a class="btn" onclick="popup()">Företag</a>
+            <a class="btn" onclick="popup()">Privat</a>
+
+        </div>
+
+    </div>
+
+    <script>
+        function popup() {
+            el = document.getElementById("popup");
+            el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+        }
+    </script>
+
+
 
     <div class="owl-carousel bodyContent">
 
@@ -63,7 +81,6 @@
 
         })
     </script>
-
 
     <!--<div id="af20-v431" class="slideshow bodyContent">
         <div class="förra"><p class="pilar"><</p></div>
