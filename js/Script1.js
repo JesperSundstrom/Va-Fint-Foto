@@ -46,3 +46,53 @@ function bigPictureX() {
 }
 
 //window.onresize = function () { location.reload(); }
+
+
+
+function popup() {
+
+    el = document.getElementById("popup");
+    el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+
+}
+
+
+
+function setCookie(mode, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = mode + "=" + cvalue + "; " + expires;
+}
+
+function getCookie(mode) {
+    var name = mode + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function checkCookie() {
+    var user = getCookie('Mode');
+
+    if (user == 'Företag') {
+        alert("Welcome again " + user);
+        window.open('Företag/FIndex.html', "_self");
+
+    }
+    else if (user == 'Privat') {
+        alert("Good day " + user);
+        window.open('Privat/PIndex.html', "_self");
+
+    }
+    else {
+        popup();
+    }
+
+}
