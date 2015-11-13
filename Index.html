@@ -14,7 +14,7 @@
     <script type="text/javascript" src="js/Script1.js"></script>
 
 </head>
-<body onload="popup()">
+<body onload="checkCookie()">
     <nav id="8hd1-2sd1">
         <div class="nav-wrapper">
             <ul>
@@ -75,10 +75,17 @@
         function checkCookie() {
             var user = getCookie('Mode');
 
-            if (user == 'Företag' || user == 'Privat') {
+            if (user == 'Företag') {
                 alert("Welcome again " + user);
 
             }
+            else if (user == 'Privat') {
+                alert ("Good day " + user);
+            }
+            else {
+                popup();
+            }
+
         }
 
     </script>
