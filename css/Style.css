@@ -483,3 +483,13 @@ input {
     border: white solid 3px;
     box-shadow: black 0px 17px 62px -38px;
 }
+
+a
+{
+    text-decoration: none;
+}
+a:visited
+{
+    text-decoration: none;
+    color: black;
+}
