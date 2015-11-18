@@ -14,6 +14,7 @@ p {
     font-weight: 200;
     line-height: 28px;
     word-spacing: 1px;
+    color:black;
 }
 
 nav {
@@ -229,11 +230,14 @@ footer {
 
 
 /* GALLERI */
+.textContainer{
+    max-width:700px;
+}
 .gallery-section {
     font-size: 0;
     list-style: none;
     clear: both;
-    box-shadow: 0px 1px 4px 0px #BDBDBD;
+    box-shadow: 0px 1px 4px #888888;
     background-color: #f7f7f7;
     margin: 5% 0;
 }
@@ -279,9 +283,50 @@ footer {
     margin-left: 0%;
 }
 
+.galleryImg1_2 {
+    background-color: white;
+    width: 49%;
+    margin: 0.5%;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+        vertical-align: middle;
+}
+
+
+    .galleryImg1_2 img {
+        max-width: none;
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .galleryImg1_1 {
+    background-color: white;
+    width: 99%;
+    margin: 0.5%;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+        vertical-align: middle;
+}
+
+
+    .galleryImg1_1 img {
+        max-width: none;
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
 @media only screen and (min-device-width : 0px) and (max-device-width : 550px) {
     .galleryImg1_3 {
-        background-color: tomato;
+        background-color: white;
         width: 98%;
         margin: 1%;
         padding-bottom: 0%;
@@ -304,11 +349,36 @@ footer {
         .galleryImg1_3:last-child {
             margin-left: 1%;
         }
+                /* 1 av 2*/
+            .galleryImg1_2 {
+        background-color: white;
+        width: 98%;
+        margin: 1%;
+        padding-bottom: 0%;
+        display: inline-block;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+        .galleryImg1_2 img {
+            width: 100%;
+            position: relative;
+        }
+
+        .galleryImg1_2:first-child {
+            margin-right: 1%;
+        }
+
+        .galleryImg1_2:last-child {
+            margin-left: 1%;
+        }
 }
 
 @media only screen and (max-width: 500px) {
     .galleryImg1_3 {
-        background-color: tomato;
+        background-color: white;
         width: 98%;
         margin: 1%;
         padding-bottom: 0%;
@@ -329,6 +399,33 @@ footer {
         }
 
         .galleryImg1_3:last-child {
+            margin-left: 1%;
+        }
+
+
+    /* 1 av 2*/
+    .galleryImg1_2 {
+        background-color: white;
+        width: 98%;
+        margin: 1%;
+        padding-bottom: 0%;
+        display: inline-block;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+        .galleryImg1_2 img {
+            width: 100%;
+            position: relative;
+        }
+
+        .galleryImg1_2:first-child {
+            margin-right: 1%;
+        }
+
+        .galleryImg1_2:last-child {
             margin-left: 1%;
         }
 }
