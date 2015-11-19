@@ -42,7 +42,8 @@ function bigPicture(imageURL) {
 }
 
 function bigPictureX() {
-    document.getElementById("bigPicture").remove();
+    bild = document.getElementById("bigPicture")
+    $(bild).remove();
 }
 
 //window.onresize = function () { location.reload(); }
