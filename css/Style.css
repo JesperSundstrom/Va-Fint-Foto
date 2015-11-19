@@ -31,7 +31,7 @@ nav {
 }
 
 .bodyContent {
-    padding-top: 65px !important;
+    padding-top: 100px !important;
 }
 
 .wrapper {
@@ -526,6 +526,20 @@ footer {
     }
 }
 /* KONTAKT */
+
+.contactCont
+{
+    /*width: 200px;
+    margin: 0 auto;*/
+}
+
+#kontaktBild2
+{
+    padding-bottom: 25%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
 #kontaktBild img {
     width: 300px;
     margin-top: 15px;
