@@ -9,7 +9,9 @@ h1 {
     font-weight: 100;
     margin: 20px 0px 15px 0px;
 }
-
+h2{
+    margin:100px auto 50px;
+}
 p {
     font-weight: 200;
     line-height: 28px;
