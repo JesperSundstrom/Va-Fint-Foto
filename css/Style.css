@@ -605,11 +605,11 @@ input {
 }
 
 .sImg {
-    background-image: url('../Bilder/studio.png');
-    background-size: 100%;
+  
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 33%;
+    padding-bottom: 55%;
+    background-position: center;
 }
 
 .shadow {
