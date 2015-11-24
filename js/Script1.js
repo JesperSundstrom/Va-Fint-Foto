@@ -9,7 +9,7 @@
 
 //}
 var c = true
-
+var W = window.innerWidth
 function showNav() {
     console.log(c);
     if (c == false) {
@@ -18,7 +18,7 @@ function showNav() {
             elements[i].style.display = "none";
         }
         c = true;
-    } else {
+    } else if(c == true || W >= 860 ){
 
         var elements = document.querySelectorAll('.navContent');
         for (var i = 0; i < elements.length; i++) {
