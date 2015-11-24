@@ -130,10 +130,40 @@ footer {
     border: none;
     cursor: url(https://books.google.se/googlebooks/images/openhand.cur) 9 5, move;
 }
+@media only screen and (max-width: 1624px) {
+
+    .slideItem {
+        height: 810px;
+    }
+}
+@media only screen and (max-width: 1524px) {
+
+    .slideItem {
+        height: 780px;
+    }
+}
+@media only screen and (max-width: 1324px) {
+
+    .slideItem {
+        height: 700px;
+    }
+}
+@media only screen and (max-width: 1224px) {
+
+    .slideItem {
+        height: 600px;
+    }
+}
 @media only screen and (max-width: 1024px) {
 
     .slideItem {
         height: 500px;
+    }
+}
+@media only screen and (max-width: 750px) {
+
+    .slideItem {
+        height: 400px;
     }
 }
 @media only screen and (max-width: 600px) {
