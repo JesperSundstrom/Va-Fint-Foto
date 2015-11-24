@@ -125,12 +125,31 @@ footer {
     margin: 0 auto;
     background-size: cover;
     background-position: center;
-    width: 1300px;
-    padding-bottom: 50%;
+    width: 100%;
+    height:850px;
     border: none;
     cursor: url(https://books.google.se/googlebooks/images/openhand.cur) 9 5, move;
 }
+@media only screen and (max-width: 1024px) {
 
+    .slideItem {
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    
+.slideItem {
+    height:300px;
+}
+
+}
+@media only screen and (max-width: 300px) {
+    
+.slideItem {
+    height:200px;
+}
+
+}
 .owl-dots {
     position: absolute;
     margin: 0;
