@@ -1,8 +1,13 @@
+@font-face {
+    font-family: Futura;
+    src: url('../Futura.ttf');
+}
 body {
     margin: 0;
     background-color: #eaeaea;
-    font-family: Century Gothic;
+    font-family: Futura, Century Gothic;
     overflow-y: scroll;
+    font-size:1.2em;
 }
 
 h1 {
@@ -23,8 +28,10 @@ p {
     font-weight: 200;
     line-height: 28px;
     word-spacing: 1px;
-    color: black;
+    letter-spacing:1px;
+    color: #3C3C3C;
     margin:10px 0;
+    font-family:Century Gothic;
 }
 .strong{
     font-weight:bold;
