@@ -8,42 +8,53 @@
 //    document.getElementById("af20-v431").style.minHeight = height;
 
 //}
+
+
 var c = true
 var W = window.innerWidth
-function showNav() {
-    console.log(c);
-    if (c == false) {
-        var elements = document.querySelectorAll('.navContent');
-        for (var i = 0; i < elements.length; i++) {
-            elements[i].style.display = "none";
-        }
-        c = true;
-    } else if(c == true || W >= 860 ){
 
-        var elements = document.querySelectorAll('.navContent');
-        for (var i = 0; i < elements.length; i++) {
-            elements[i].style.display = "block";
-        }
+    function MobileMenu() {
+        console.log(c);
+        if (c == false) {
+            var elements = document.querySelectorAll('.navContentMobil');
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].style.display = "none";
+                document.getElementById
+            }
+            c = true;
+        } else if(c == true ){
 
-        c = false;
+            var elements = document.querySelectorAll('.navContentMobil');
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].style.display = "block";
+            }
+
+            c = false;
+        }
     }
-}
 
 
 
-function bigPicture(imageURL) {
-    Picture = document.createElement('div');
-    Picture.id = "bigPicture";
-    document.body.appendChild(Picture);
-    document.getElementById("bigPicture").setAttribute('onclick', 'bigPictureX();');
-    document.getElementById("bigPicture").setAttribute('style', 'background-image:url(' + imageURL + ')');
 
 
-}
 
-function bigPictureX() {
-    bild = document.getElementById("bigPicture")
-    $(bild).remove();
-}
 
-//window.onresize = function () { location.reload(); }
+
+
+
+    function bigPicture(imageURL) {
+        Picture = document.createElement('div');
+        Picture.id = "bigPicture";
+        document.body.appendChild(Picture);
+        document.getElementById("bigPicture").setAttribute('onclick', 'bigPictureX();');
+        document.getElementById("bigPicture").setAttribute('style', 'background-image:url(' + imageURL + ')');
+
+
+    }
+
+    function bigPictureX() {
+        bild = document.getElementById("bigPicture")
+        $(bild).remove();
+    }
+
+    //window.onresize = function () { location.reload(); }
