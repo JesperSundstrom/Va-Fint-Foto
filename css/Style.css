@@ -299,16 +299,19 @@ footer {
 
 
 /* GALLERI */
-.textContainer {
-    max-width: 700px;
+.textCard {
     list-style: none;
     clear: both;
     padding: 10px;
     box-shadow: 0px 1px 4px #888888;
-    background-color: #FFFFFF;
+    background-color: #fcfcfc;
     margin: 5% auto;
 }
+.textContainer{
+    max-width:700px;
+        margin: 5% auto;
 
+}
 .gallery-section {
     font-size: 0;
     list-style: none;
