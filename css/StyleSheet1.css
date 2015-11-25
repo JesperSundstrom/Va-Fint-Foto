@@ -45,9 +45,9 @@ nav a {
 }
 
 
-    #mobil {
-        display: none;
-    }
+#mobil {
+    display: none;
+}
 
 
 #burgerMenu {
@@ -81,14 +81,11 @@ nav a {
     nav a {
         display: inline-block;
     }
-
-
-
 }
 
 @media only screen and (max-width: 830px) {
 
-    .nav{
+    .nav {
         display: none;
     }
 
@@ -121,7 +118,16 @@ nav a {
     }
 
     .mobilBtn {
+        font-size: 40px;
+        font-weight: bolder;
         display: block;
+        float: right;
+        margin: 7px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
     }
 
     #mobil {
