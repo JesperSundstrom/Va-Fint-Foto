@@ -11,6 +11,8 @@ body {
 }
 
 h1 {
+        font-family: Futura, Century Gothic;
+
     font-weight: 100;
     margin: 20px 0px 15px 0px;
 }
@@ -31,7 +33,6 @@ p {
     letter-spacing:1px;
     color: #3C3C3C;
     margin:10px 0;
-    font-family:Century Gothic;
 }
 .strong{
     font-weight:bold;
