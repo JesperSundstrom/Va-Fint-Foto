@@ -29,16 +29,19 @@ nav a {
     text-decoration: none;
     color: #090909;
     transition: 0.1s;
-    border-bottom: 0.2px solid black;
     font-size: 20px;
     display: block;
     padding: 0 10px;
 }
 
-    nav a:hover {
-        color: rgba(9, 9, 9, 0.25);
-        transition: .3s;
-    }
+.mobilBorder {
+    border-bottom: 0.2px solid black;
+}
+
+nav a:hover {
+    color: rgba(9, 9, 9, 0.25);
+    transition: .3s;
+}
 
 .navContentMobil {
     display: none;
