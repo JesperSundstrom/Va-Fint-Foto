@@ -29,14 +29,10 @@ nav a {
     text-decoration: none;
     color: #090909;
     transition: 0.1s;
-   
+    border-bottom: 0.2px solid black;
     font-size: 20px;
     display: block;
     padding: 0 10px;
-}
-.mobilborder{
- border-bottom: 0.2px solid black;
- z-index:222222;
 }
 
     nav a:hover {
@@ -132,9 +128,6 @@ nav a {
         -o-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
-        position:absolute;
-       top:0;
-        right:0;
     }
 
     #mobil {
