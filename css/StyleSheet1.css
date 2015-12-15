@@ -42,6 +42,9 @@ nav a:hover {
     color: rgba(9, 9, 9, 0.25);
     transition: .3s;
 }
+.selected{
+    color:rgba(9, 9, 9, 0.25);
+}
 
 .navContentMobil {
     display: none;
