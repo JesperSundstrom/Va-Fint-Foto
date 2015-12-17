@@ -83,14 +83,17 @@ nav {
 }
 
 #footerInfoCont {
-    margin-top: -10px;
     font-size: 0.9em;
 }
 
 #footerTitle {
     font-size: 1.2em;
-    margin-top: -20px;
     font-weight: 500;
+}
+
+.fb {
+    height: 50px;
+    margin: 15px;
 }
 
 footer h1 {
@@ -98,7 +101,6 @@ footer h1 {
     font-weight: 100;
     letter-spacing: 3px;
     font-size: 3em;
-    margin: 32.160px;
 }
 
 footer p {
@@ -116,7 +118,7 @@ footer {
     width: 100%;
     background-color: #f7f7f7;
     overflow-y: hidden;
-    padding-bottom: 10px;
+    padding: 10px 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     margin-top: 150px;
 }
