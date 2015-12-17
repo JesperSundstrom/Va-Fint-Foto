@@ -70,6 +70,7 @@ nav {
     padding: 0 2%;
 }
 /* FOOTER*/
+
 #j890-c19f::before {
     content: "";
     width: 100%;
@@ -92,7 +93,12 @@ nav {
 }
 
 .fb {
-    height: 50px;
+    height: 40px;
+    margin: 15px;
+}
+
+.sff {
+    height: 20px;
     margin: 15px;
 }
 
@@ -104,21 +110,22 @@ footer h1 {
 }
 
 footer p {
-    line-height: 15px;
+    line-height: 30px;
     opacity: 0.8;
     font-size: 18px;
     letter-spacing: 1px;
+    margin: 5px;
 }
 
 #copy {
     opacity: 0.5;
+    margin: 20px;
 }
 
 footer {
     width: 100%;
     background-color: #f7f7f7;
     overflow-y: hidden;
-    padding: 10px 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     margin-top: 150px;
 }
