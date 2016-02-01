@@ -79,6 +79,15 @@ nav {
     display: block;
 }
 
+.footerLogo
+{
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position-x: center;  
+    margin-top: 60px;
+    
+}
+
 #footerInfo {
     text-align: center;
 }
