@@ -673,7 +673,7 @@ input {
 .sImg {
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 55%;
+    padding-bottom: 100%;
     background-position: center;
 }
 
